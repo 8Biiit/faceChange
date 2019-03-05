@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a10060.fakeface.ShowActivity">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <Button
+            android:id="@+id/btn_origin"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20px"
+            android:layout_marginRight="20px"
+            android:background="@drawable/origin"
+            android:text=""></Button>
+
+        <Button android:text=""
+            android:id="@+id/btn_happy"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/happy"
+            android:layout_marginLeft="0px"
+            android:layout_marginRight="20px">
+        </Button>
+
+        <Button
+            android:id="@+id/btn_sad"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20px"
+            android:layout_marginRight="20px"
+            android:background="@drawable/sad"
+            android:text=""></Button>
+
+        <Button
+            android:id="@+id/btn_surprise"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20px"
+            android:layout_marginRight="20px"
+            android:background="@drawable/suprise"
+            android:text=""></Button>
+
+        <Button
+            android:id="@+id/btn_angry"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20px"
+            android:layout_marginRight="20px"
+            android:background="@drawable/anger"
+            android:text=""></Button>
+
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:layout_marginTop="50dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="spread"
+        app:srcCompat="@android:color/darker_gray"/>
+
+</android.support.constraint.ConstraintLayout>
